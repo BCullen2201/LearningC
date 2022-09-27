@@ -24,5 +24,12 @@ int main() {
 	
 	printf("Answer: %d\n", num1 + num2);
 	
+	// Find circumference of a circle
+	const double pi = 3.14;
+	int radius;
+	printf("Enter radius of circle(inches): ");
+	scanf("%d", &radius);
+	printf("The circumference of this circle is %f inches\n", 2 * pi * radius);
+	
 	return 0;
 }
